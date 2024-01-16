@@ -1,0 +1,112 @@
+@media (max-width:767px){
+    #navbar{
+        padding: 10px 10px;
+        display: block;
+        text-align: center;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .menu ul{
+        text-align: center;
+        display: block;
+    }
+    .bannar-content{
+        margin:0 20px;
+        padding: 20px 0;
+    }
+    .box{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: -20px;
+    }
+    .bannar-content h2{
+        font-size: 30px;
+        text-align: start;
+    }
+    .bannar-content p{
+        font-size: 16px;
+        text-align: start;
+
+    }
+    #popular-tours{
+        width: 335px;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .popular-content{
+       width: 334px;
+       margin-left: 10px;
+   }
+   .image img{
+    width: 354px;
+    height: 350px;
+   }
+   #destination .row{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    row-gap: 20px;
+   }
+    .first-div, .second-div, .third-div{
+        width:375px;
+        border-radius: 16px;
+        height: 500px;
+        background-size: cover;
+    }
+    .border, .border2{
+        width: 320px;
+        height: 420px;
+        margin-top: 30px;
+        margin-left: 30px;
+        padding: 0;
+    }
+    .contact{
+        margin-left: 10px;
+        margin-top: 35px;
+    }
+    .info{
+        width: 300px;
+        line-height: 36px;
+    }
+    .contact p{
+        width: 300px;
+        font-size: 14px;
+    }
+    #popular-place{
+        display: block;
+    }
+    .video video{
+        width: 360px;
+        height: 300px;
+        border-radius: 20px;
+    }
+    #newsletter{
+        margin-top: 400px;
+        display: block;
+    }
+    #newsletter .news{
+        width: 280px;
+        height: 353px;
+        padding: 20px 40px;
+        margin-bottom: 20px;
+    }
+    .space, .news button{
+        width: 288px;
+        font-size: larger;
+    }
+    #newsletter .image{
+        width: 358px;
+        height: 300px;
+    }
+    #newsletter .image button{
+        width: 214.023px;
+        height: 79.268px;
+        margin-left: 143px;
+        margin-top: 187px;
+    }
+    #footer p{
+        width: 287px
+    }
+}

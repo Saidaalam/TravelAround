@@ -1,0 +1,487 @@
+/** COMMON CSS STARTS HERE */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital@0;1&display=swap');
+:root {
+    --primaryFont:"Mulish";
+    --primaryColor: #FF5400;
+    --secondaryColor: #131318;
+  }
+  
+  * {
+    font-family: var(--primaryFont);
+  }
+
+  .container{
+     width: 1170px;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  /** COMMON CSS STARTS HERE */
+  .logo{
+    display: flex;
+    width: 300px;
+  }
+  .logo img{
+    margin-right: 10px;
+  }
+  .logo span{
+    color: var(--primaryColor);
+    margin-left: 5px;
+  }
+  #navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    align-items: center;
+  }
+  .menu ul{
+    display: flex;
+  }
+  .menu li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+  .menu li a{
+    color: #424247;
+  }
+  .box{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+  }
+  #bannar{
+    background: rgba(0,0,0,0.3)url(./images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    border-radius: 16px;
+  }
+  .bannar-content{
+    padding-top: 80px;
+    width: 676px;
+    margin: auto;
+  }
+  .bannar-content h2{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+  }
+  .bannar-content h3{
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .bannar-content p{
+    color: #FFF;
+    font-size: 1rem;
+  }
+
+  .btn1{
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    width: 174px;
+    height: 52px;
+    font-weight: 700;
+  }
+  .btn2{
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    width: 174px;
+    height: 52px;
+    font-weight: 700;
+  }
+  .btn2 span, .btn3 span{
+    font-size: large;
+    margin-left: 60px;
+  }
+  .btn3{
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    width: 174px;
+    height: 52px;
+    font-weight: 700;
+  }
+  .btn4{
+    border-radius: 8px;
+    background: var(--primaryColor);
+    border: none;
+    color: #FFF;
+    width: 174px;
+    height: 52px;
+    font-weight: 700;
+  }
+  .btn4 span{
+    color: #FFF;
+    font-size: large;
+    margin-right: 30px;
+  }
+  .popular-content{
+    width: 600px;
+    margin-top: -10px;
+  }
+  .popular-content button{
+    border-radius: 8px;
+    background: var(--primaryColor);
+    border: none;
+    color: #FFF;
+    width: 174px;
+    height: 52px;
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+  .popular-content h2{
+    color: var(--secondaryColor);
+    font-size: 2.2rem;
+    font-weight: 800;
+  }
+  .image img{
+    width: 580px;
+    height: 520px;
+    border-radius: 16px;  
+
+  }
+  #popular-tours{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  .popular-content p, li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    line-height: 26px;
+  }
+  #destination{
+    margin-top: 80px;
+  }
+  .des-cnt h2{
+    color: #131318;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 800;
+  }
+  .des-cnt p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1rem; 
+  }
+
+  #destination .row{
+    height: 300px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  #destination .row span h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 130px;
+  }
+  #Choose{
+    margin-top: 80px;
+  }
+  #Choose .Choose-cnt h2{
+    color: #131318;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 800;
+  }
+  #Choose .Choose-cnt p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1rem; 
+  }
+  #Choose .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  #Choose .row h3{
+    color: #131318;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-left: 30px;
+  }
+  #Choose .row p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 30px;
+  }
+  #Choose .row img{
+    width: 64px;
+    height: 64px;
+    margin-left: 30px;
+    margin-top: 35px;
+  }
+  .hotel{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+  }
+  .map{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+  }
+  .price{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+  }
+  #Deals-Discount {
+    margin-top: 80px;
+  }
+  #Deals-Discount .deals-cnt h2{
+    color: #131318;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 800;
+  }
+  #Deals-Discount .deals-cnt p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1rem; 
+    margin-bottom: 50px;
+  }
+  #Deals-Discount button{
+    border-radius: 8px;
+    background: var(--primaryColor);
+    border: none;
+    color: #FFF;
+    width: 150px;
+    height: 52px;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .first-div{
+    background-image: url(./images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    padding-top: 80px;
+  }
+  .second-div{
+    background-image: url(./images/Group\ 39.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    margin-top: 30px;
+    padding-top: 60px;
+  }
+  .third-div{
+    background-image: url(./images/Group\ 40.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    margin-top: 30px;
+    padding-top: 60px;
+  }
+  .border{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-left: 50%;
+  }
+  .border2{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-left: 100px;
+  }
+  .contact{
+    margin: 40px 50px;
+    width: 452px;
+    margin-top: 65px;
+  }
+  .contact h4{
+    color: var(--primaryColor);
+  }
+  .contact .frame{
+    margin-left: 10px;
+    margin-bottom: -5px;
+  }
+  .contact span{
+    color: #5A5A5D;
+    font-size: 1rem;
+    margin-left: 15px;
+  }
+  #Deals-Discount .package{
+    width: 210px;
+    height: 52px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
+  #popular-place{
+    display: flex;
+    margin-top: 50px;
+    height: 400px;
+    justify-content: space-between;
+  }
+  #popular-place button{
+    border-radius: 8px;
+    background: var(--primaryColor);
+    border: none;
+    color: #FFF;
+    width: 174px;
+    height: 52px;
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+  #popular-place h2{
+    color: var(--secondaryColor);
+    font-size: 2.3rem;
+    font-weight: 800;
+  }
+  #popular-place p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    line-height: 26px;
+  }
+  #popular-place li{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 2rem;
+  }
+  #newsletter{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .news{
+    width: 450px;
+    height: 300px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 50px 70px;
+  }
+  .news h2{
+    color: #131318;
+    font-size: 1.4rem;
+    font-weight: 800;
+  }
+  .news p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    line-height: 26px;
+  }
+  .news button{
+    width: 400px;
+    height: 52px;
+    border-radius: 8px;
+    background: var(--primaryColor);
+    border: none;
+    color: #FFF;
+    margin-top: 8px;
+  }
+  .space{
+    width: 400px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+  }
+  #newsletter .image{
+    width: 672px;
+    height: 400px;
+    border-radius: 16px;
+    background: url(./images/Rectangle\ 8\ \(1\).png), lightgray 50% / cover no-repeat;
+  }
+  #newsletter .image button{
+   width: 250px;
+   height: 100px;
+   transform: rotate(-19.628deg);
+   background: var(--primaryColor);
+   margin-top: 39%;
+   margin-left: 62%;
+    border: none;
+    border-radius: 16px;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+  button a{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  #footer{
+    margin-top: 60px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-top: 80px;
+  }
+  #footer p{
+    color: #5A5A5D;
+    width: 769px;
+    margin: 20px auto;
+    text-align: center; 
+    font-size: 1rem;
+    line-height: 26px;
+  }
+  #footer h4{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 80px;
+  }
+    .footer-logo{
+      display: flex;
+      margin: auto;
+      width: 200px;
+    }
+    .footer-logo img{
+      margin-right: 10px;
+    }
+    .footer-logo span{
+      margin-left: 5px;
+      color: var(--primaryColor);
+    }
+  .socialMedia{
+    text-align: center;
+    font-size: 24px;
+  }
+  .socialMedia span{
+    padding: 10px 15px;
+  }
+
+
